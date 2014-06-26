@@ -2,11 +2,10 @@
 package com.me.college;
 
 public class Subject {
-String subject;
+private String subject;
 
-public Subject(String name)
-{
-	this.subject= name;
+public void setSubject(String subject) {
+	this.subject = subject;
 }
 
 }

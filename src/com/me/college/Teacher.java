@@ -3,7 +3,7 @@ package com.me.college;
 
 public class Teacher extends Person{
 	
-	Subject subject;
+	private Subject subject;
 	
 	public Teacher(String email, String name, String add, long number, Subject subject)
 	{

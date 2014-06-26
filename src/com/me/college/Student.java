@@ -3,8 +3,8 @@ package com.me.college;
 
 public class Student extends Person{
 
-	Course course;
-	Class className;
+	private Course course;
+	private Class className;
 
 	public Class getClassName() {
 		return className;

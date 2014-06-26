@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public class Course {
 
-	String courseName;
-	ArrayList<Subject> subjects;
+	private String courseName;
+	private ArrayList<Subject> subjects;
 	
 	public Course(String courseName, ArrayList<Subject> subjects)
 	{

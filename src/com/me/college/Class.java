@@ -4,8 +4,8 @@ package com.me.college;
 import java.util.ArrayList;
 
 public class Class {
-	String className;
-	ArrayList<Student> students;
+	private String className;
+	private ArrayList<Student> students;
 	
 	public Class(String className, ArrayList<Student> students)
 	{

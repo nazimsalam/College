@@ -2,10 +2,10 @@
 package com.me.college;
 
 abstract class Person {
-	String email;
-	String name;
-	long contactNumber;
-	String address;
+	protected String email;
+	protected String name;
+	protected long contactNumber;
+	protected String address;
 	public String getEmailId() {
 		return email;
 	}
