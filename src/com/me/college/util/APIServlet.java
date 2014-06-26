@@ -6,11 +6,13 @@ import org.json.JSONObject;
 
 public class APIServlet extends HttpServlet{
 
-	private void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	private void doGet(HttpServletRequest request, HttpServletResponse response) 
+	{
         doPost(request, response);
     }
 	
-	private void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	private void doPost(HttpServletRequest request, HttpServletResponse response)
+	{
         String operation= request.getParameter("OPERATION");
         //Based on Operation value, we decide which method is to be invoked
         String resp=null;
@@ -29,21 +31,21 @@ public class APIServlet extends HttpServlet{
         //send/print response to client
     }
 	
-	private JSONObject addNewStudent(HttpServletRequest req)
+	private String addNewStudent(HttpServletRequest req)
 	{
 		// Take values from request
 		// Update DB values
 		// Construct response as JSONObject
 		// return to calling method
 	}
-	private JSONObject editStudentDetails(HttpServletRequest req)
+	private String editStudentDetails(HttpServletRequest req)
 	{
 		// Take values from request
 		// Update DB values
 		// Construct response as JSONObject
 		// return to calling method
 	}
-	private JSONObject getStudentDetails(HttpServletRequest req)
+	private String getStudentDetails(HttpServletRequest req)
 	{
 		// Take id from request
 		// get from DB values
